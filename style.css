@@ -1,0 +1,136 @@
+ *,
+ *:before,
+ *:after {
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: Circular,
+         Helvetica,
+     ;
+ }
+
+ nav>.container>a {
+     width: 20vw;
+     height: 10vh;
+     color: black;
+     background-image: url(images/Spotify-Black-Logo.wine.svg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center
+ }
+
+ nav>.container>a:hover {
+     text-decoration: none;
+     text-decoration-color: none;
+     color: black;
+ }
+
+ nav .container .logo {
+     display: inline;
+ }
+
+
+ .btn {
+     display: block;
+ }
+
+ .divider {
+     border-top: 1px solid #d9dadc;
+     display: block;
+     line-height: 1px;
+     margin: 15px 0;
+     position: relative;
+     text-align: center;
+ }
+
+ .divider-title {
+     background: #fff;
+     font-size: 12px;
+     letter-spacing: 1px;
+     padding: 0 20px;
+     text-transform: uppercase;
+ }
+
+ .password {
+     text-decoration: underline;
+     color: #616467;
+ }
+
+ .password {
+     text-decoration: underline;
+     color: #616467;
+ }
+
+ .password:hover {
+     color: #1db954
+ }
+
+
+
+ .login {
+     background-color: #1db954;
+     color: white;
+     border-radius: 2rem;
+ }
+
+ .login:hover {
+     background-color: #46df7b;
+
+ }
+
+ .container {
+     width: 37%;
+ }
+
+ .facebook {
+     border-radius: 2rem;
+     background-color: #3a61b3;
+     color: white;
+ }
+
+ .facebook:hover {
+     background-color: #5d85db;
+     color: white;
+     text-decoration: none;
+
+ }
+
+ .apple {
+     border-radius: 2rem;
+     background-color: #000000;
+     color: white;
+ }
+
+ .apple:hover {
+     background-color: #3b3b3b;
+     color: white;
+     text-decoration: none;
+
+ }
+
+ .google {
+     border-radius: 2rem;
+     border: 0.2rem solid #616467;
+     color: #616467;
+ }
+
+ .google:hover {
+     background-color: #383838;
+     color: white;
+     text-decoration: none;
+
+ }
+
+ .subscribe {
+     border-radius: 2rem;
+     border: 0.2rem solid #616467;
+     color: #616467;
+ }
+
+ .subscribe:hover {
+     background-color: #383838;
+     color: white;
+     text-decoration: none;
+
+ }
