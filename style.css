@@ -4,9 +4,12 @@
      box-sizing: border-box;
  }
 
+
+
+
  body {
-     font-family: Circular,
-         Helvetica,
+     font-family: 'Montserrat',
+         sans-serif;
      ;
  }
 
@@ -33,6 +36,7 @@
 
  .btn {
      display: block;
+     ;
  }
 
  .divider {
@@ -133,4 +137,60 @@
      color: white;
      text-decoration: none;
 
+ }
+
+
+ input[type=checkbox] {
+     display: none;
+     cursor: pointer;
+ }
+
+ input[type=checkbox]+label::before {
+     content: "\2714";
+     border: 0.1em solid #000;
+     border-radius: 0.2em;
+     display: inline-block;
+     width: 2rem;
+     height: 2rem;
+     cursor: pointer;
+     vertical-align: bottom;
+     color: transparent;
+     transition: .2s;
+ }
+
+ input[type=checkbox]+label:active:before {
+     transform: scale(0);
+     cursor: pointer;
+ }
+
+ input[type=checkbox]:checked+label:before {
+     background-color: MediumSeaGreen;
+     border-color: MediumSeaGreen;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ input[type=checkbox]:disabled+label:before {
+     transform: scale(1);
+     border-color: #aaa;
+     cursor: pointer;
+ }
+
+ input[type=checkbox]:checked:disabled+label:before {
+     transform: scale(1);
+     background-color: #bfb;
+     border-color: #bfb;
+     cursor: pointer;
+ }
+
+ @media (max-width: 1037px) {
+     .container {
+         width: 47%;
+     }
+ }
+
+ @media (max-width: 830px) {
+     .container {
+         width: 67%;
+     }
  }
